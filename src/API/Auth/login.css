@@ -1,0 +1,18 @@
+.login_card {
+  min-height: 560px;
+}
+
+.login_form {
+  gap: 21px;
+  margin-top: 32px;
+}
+
+.login_form .register_submit {
+  margin-top: 7px;
+}
+
+@media (max-width: 760px) {
+  .login_card {
+    min-height: 0;
+  }
+}
